@@ -1,0 +1,18 @@
+<header class="header">
+  <div class="logo" routerLink="/home" >
+      <h1>Araba.kz</h1>
+  </div>
+  <div class="center">
+    <span routerLink="categories/:category_id/products/:product_id">Vehicles</span>
+    <span>Charging</span>
+    <span>Discover</span>
+    <span>Help</span>
+    <span>All</span>
+  </div>
+  <div class="menu">
+    <img src="https://static.vecteezy.com/system/resources/previews/008/442/086/original/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="user-icon"  class="menu-item" routerLink="/account" [routerLinkActive]="'menu-item-activated'">
+    <img src="https://cdn-icons-png.flaticon.com/512/73/73814.png" alt="user-icon"  class="menu-item" routerLink="/favorites" [routerLinkActive]="'menu-item-activated'">
+    <img src="https://static.vecteezy.com/system/resources/previews/004/999/463/original/shopping-cart-icon-illustration-free-vector.jpg" alt="user-icon"  class="menu-item" routerLink="/purchases" [routerLinkActive]="'menu-item-activated'">
+  </div>
+</header>
+

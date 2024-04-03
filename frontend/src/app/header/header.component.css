@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px; /* Add space between menu items */
+}
+
+.menu-item {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%; /* Make menu items circular */
+}
+
+.center {
+  margin-top: 11px;
+  display: flex;
+  justify-content: space-evenly; /* Distribute spans evenly */
+  align-items: center;
+  flex-grow: 1; /* Allow center section to grow */
+}
+
+.logo {
+  margin-top: 6px;
+}

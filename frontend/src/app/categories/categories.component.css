@@ -1,0 +1,42 @@
+.product{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  margin-right: 4rem;
+  border-bottom: 1px solid gray;
+}
+
+.product-price{
+  font-family: Calibri;
+  font-weight: 600;
+}
+
+.product-image{
+  width: 300px;
+  height: 330px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.liked{
+  width: 30px;
+  position: relative;
+  left: 16rem;
+  top: 3em;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 3%;
+}
+
+
+
+

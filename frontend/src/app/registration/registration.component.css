@@ -1,0 +1,57 @@
+.registration{
+  display: flex;
+  width: fit-content;
+  margin: 4% auto;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registration-data{
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  margin-bottom: 7px;
+}
+.registration-forgot{
+  color: black;
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+
+.registration-button{
+  border: 1px solid;
+  width: 100%;
+  padding: 7px;
+}
+.registration-enter{
+  border-bottom: none;
+  background-color: #8f9862;
+  color: white;
+  border-radius: 34px;
+  margin-bottom: 12px;
+}
+
+
+.registration-input{
+  border: 1px solid #bfbfbf;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+.registration-input::placeholder{
+  opacity: 50%;
+}
+.registration-title{
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: Arial;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.authorization-register{
+  color: black;
+}
+.authorization-register a{
+  color: #032a64;
+}

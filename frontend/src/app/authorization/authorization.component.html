@@ -1,0 +1,12 @@
+<div class="container">
+<div class="authorization">
+  <h1 class="authorization-title">Authorization</h1>
+  <form class="authorization-data" (ngSubmit)="login()">
+    <input type="text" placeholder="Email or Phone" class="authorization-login authorization-input" name="username" [(ngModel)]="username" autocomplete="off">
+    <input type="password" placeholder="Password" class="authorization-password authorization-input"  name="password" [(ngModel)]="password" autocomplete="off">
+    <input type="submit" value="Sign In" class="authorization-enter authorization-button">
+  </form>
+  <p class="authorization-register">Don't have an account? <a [routerLink]="['/registration']">Register</a></p>
+</div>
+</div>
+

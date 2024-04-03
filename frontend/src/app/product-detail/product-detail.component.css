@@ -1,0 +1,45 @@
+
+.photo-img{
+  height: 460px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.parent{
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  font-family: Monaco;
+}
+.name{
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.buy{
+  margin-bottom: 8rem;
+  padding: 10px;
+  width: 140px;
+  border-radius: 17px;
+  background-color: #8f9862;
+  color: white;
+}
+
+.price{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Ebrima;
+  margin-bottom: 2rem;
+}
+
+

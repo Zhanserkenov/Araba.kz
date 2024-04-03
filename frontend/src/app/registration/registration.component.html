@@ -1,0 +1,12 @@
+<div class="registration">
+  <h1 class="registration-title"> регистрация </h1>
+  <form class="registration-data" (ngSubmit)="register()">
+    <input type="text" placeholder="Имя" class="registration-input" name="first_name" [(ngModel)]="user.first_name" autocomplete="off">
+    <input type="text" placeholder="Фамилия" class="registration-input" name="last_name" [(ngModel)]="user.last_name" autocomplete="off">
+    <input type="text" placeholder="Имя пользователя" class="registration-input" name="username" [(ngModel)]="user.username" autocomplete="off">
+    <input type="password" placeholder="Пароль" class="authorization-password registration-input" name="password" [(ngModel)]="user.password" autocomplete="off">
+    <input type="submit" value="зарегистрироваться" class="registration-enter registration-button">
+  </form>
+  <p class="authorization-register">У вас уже есть аккаунт? <a [routerLink]="['/login']">Войти</a></p>
+
+</div>

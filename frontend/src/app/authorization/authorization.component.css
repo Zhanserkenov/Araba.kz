@@ -1,0 +1,68 @@
+.container{
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1931674c-b4c7-4333-b2b7-7b4c4399ec48/dge6frn-ad0d46ff-c3c3-488f-a1a8-02d16d7e2c57.jpg/v1/fill/w_1920,h_1098,q_75,strp/amg_mercedes_wallpaper_by_lovestoryai_dge6frn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE5MzE2NzRjLWI0YzctNDMzMy1iMmI3LTdiNGM0Mzk5ZWM0OFwvZGdlNmZybi1hZDBkNDZmZi1jM2MzLTQ4OGYtYTFhOC0wMmQxNmQ3ZTJjNTcuanBnIiwiaGVpZ2h0IjoiPD0xMDk4Iiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvMTkzMTY3NGMtYjRjNy00MzMzLWIyYjctN2I0YzQzOTllYzQ4XC9sb3Zlc3RvcnlhaS00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.dzNxRW69YOAux-x_LAo6sRTiyr0GOXGf0EFV9IZURU8");
+  height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.authorization{
+  display: flex;
+  width: fit-content;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid grey; /* Added border */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7); /* Added semi-transparent white background */
+}
+
+.authorization-data{
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  margin-bottom: 7px;
+}
+.authorization-forgot{
+  color: black;
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+
+.authorization-button{
+  border: 1px solid;
+  width: 100%;
+  padding: 7px;
+}
+.authorization-enter{
+  border-bottom: none;
+  background-color: #8f9862;
+  color: white;
+  border-radius: 34px;
+  margin-bottom: 12px;
+}
+
+
+.authorization-input{
+  border: 1px solid #bfbfbf;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+.authorization-input::placeholder{
+  opacity: 50%;
+}
+.authorization-title{
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.authorization-password{
+  margin-bottom: 30px;
+}
+.authorization-register{
+  color: black;
+}
+.authorization-register a {
+  color: #032;
+}

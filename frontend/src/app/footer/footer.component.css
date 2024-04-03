@@ -1,0 +1,23 @@
+.footer {
+  background-color: darkblue;
+  padding: 20px 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts h2 {
+  margin: 10px;
+  color: grey;
+}
+
+
+
+
