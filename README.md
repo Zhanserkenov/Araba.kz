@@ -8,5 +8,5 @@ But Araba.kz is more than just a marketplace; it's a comprehensive automotive hu
 
 Join us at Araba.kz as we redefine the automotive experience in Kazakhstan, providing a dynamic platform that caters to your every need. Whether you're buying, selling, or simply exploring, Araba.kz is your trusted companion on the road ahead.
 
-**Developers: 
+**Developers:** 
 Zhanserkenov Arsen, Zhakyayev Islambek, Issakhanov Aidar.
