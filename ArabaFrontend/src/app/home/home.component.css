@@ -24,27 +24,75 @@ video {
     padding: 150px;
     padding-bottom: 500px;
     background-size: cover;
-    flex-direction: column;
-    align-items: flex-start;
     font-weight: 700;
+    display: flex; /* Add display flex */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+}
+
+.banner2 h1 {
+    font-size: 40px; /* Set font size to 40px */
+}
+
+.banner2 p {
+    font-size: 23px;
+}
+
+.banner2 button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Bold', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.banner2 button:hover {
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .plan {
     height: 885px;
-    background-image: url("images/Tesla.jpg");
+    background-image: url("images/Sonata.jpg");
     background-size: cover;
     margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+}
+
+.capt {
+    margin-bottom: 130px;
+    color: white;
+    font-size: 40px;
 }
 
 .plans{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.plans_item {
+    padding: 5%;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    width: 360px;
+    margin-right: 50px;
 }
 
 .plans h2{
     font-weight: 700;
-    color: #000000;
-    font-size: 22px;
+    color: white;
+    font-size: 30px;
     line-height: 1.4;
     letter-spacing: 0px;
     margin-bottom: 20px;
@@ -54,35 +102,30 @@ video {
     font-weight: 400;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
-    color: #000000;
-    font-size: 16px;
+    color: white;
+    font-size: 23px;
     line-height: 1.6;
     letter-spacing: 0px;
 }
 
-.linkerclone2{
-    padding:15px 30px;
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    border: 3px solid #000000;
+.linkerclone2 {
+    padding: 15px 30px;
+    border: none;
     border-radius: 30px;
+    background-color: #ffffff;
+    color: #000000;
     font-family: 'Bold', sans-serif;
     font-weight: 700;
-    font-style: normal;
-    font-size: 13px;
-    margin-top: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
 }
 
-.linkerclone2:hover{
-    color: #ffffff;
+.linkerclone2:hover {
     background-color: #000000;
-}
-
-.plans_item{
-    padding: 5%;
-    border: 3px solid #000000;
-    border-radius: 60px;
-    box-sizing: border-box;
-    margin-right: 20px;
+    color: #ffffff;
 }
