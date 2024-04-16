@@ -1,0 +1,73 @@
+/* Styles for the article container */
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cen{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+/* Styles for the article header */
+.article-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff; /* Change to white */
+    margin-bottom: 20px;
+}
+
+/* Styles for the article list */
+.article-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for each article item */
+.article-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #333; /* Darken background color */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.article-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Styles for the article content */
+.article-content {
+    margin-bottom: 10px;
+}
+
+.article-title {
+    font-size: 24px;
+    color: #fff; /* Change to white */
+    margin: 0;
+}
+
+.article-description {
+    font-size: 16px;
+    color: #ddd; /* Lighten description text color */
+    margin: 0;
+}
+
+/* Styles for the Read button */
+.read-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.read-button:hover {
+    background-color: #0056b3;
+}

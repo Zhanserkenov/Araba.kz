@@ -1,0 +1,19 @@
+<h1>Charges</h1>
+<table>
+    <thead>
+    <tr>
+        <th class = "th">Make</th>
+        <th class = "th">Model</th>
+        <th class = "th">Time(minutes)</th>
+        <th class = "th">Cost</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let charging of chargingData">
+        <td class="th"> {{ charging.make }}</td>
+        <td class = "th">{{ charging.model }}</td>
+        <td class = "th">{{ charging.charging_time }}</td>
+        <td class = "th">{{ charging.charging_cost }}</td>
+    </tr>
+    </tbody>
+</table>

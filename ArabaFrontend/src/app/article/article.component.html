@@ -1,0 +1,12 @@
+<div class="cen">
+    <h1 class="article-header">Articles</h1>
+</div>
+<ul class="article-list">
+    <li *ngFor="let article of articles" class="article-item">
+        <div class="article-info">
+            <h2 class="article-title">{{ article.title }}</h2>
+            <p class="article-description">{{ article.description }}</p>
+        </div>
+        <button class="read-button" [routerLink]="['/article', article.id]">Read</button>
+    </li>
+</ul>
