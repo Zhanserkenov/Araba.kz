@@ -17,7 +17,10 @@ import { AuthorizationComponent } from './authorization/authorization.component'
 import { RegistrationComponent } from './registration/registration.component';
 import {AuthoGuard} from "./autho.guard";
 import { HttpClientModule} from "@angular/common/http";
-
+import { CarsComponent } from './cars/cars.component';
+import { ChargingComponent } from './charging/charging.component';
+import { ArticleComponent } from './article/article.component';
+import { ArticleDetailComponent } from './article-detail/article-detail.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,10 @@ import { HttpClientModule} from "@angular/common/http";
     SearchComponent,
     AuthorizationComponent,
     RegistrationComponent,
+    CarsComponent,
+    ChargingComponent,
+    ArticleComponent,
+    ArticleDetailComponent,
   ],
   imports: [
     BrowserModule,

@@ -58,6 +58,8 @@ video {
     color: #ffffff;
 }
 
+
+/* Styles for the video */
 .plan {
     height: 885px;
     background-image: url("images/Sonata.jpg");
@@ -85,8 +87,9 @@ video {
     border: 3px solid #ffffff;
     border-radius: 30px;
     text-align: center;
-    width: 360px;
+    width: 300px;
     margin-right: 50px;
+    margin-top: -50px;
 }
 
 .plans h2{

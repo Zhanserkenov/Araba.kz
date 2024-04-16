@@ -10,6 +10,10 @@ import { SearchComponent } from './search/search.component';
 import { AuthorizationComponent } from './authorization/authorization.component';
 import { RegistrationComponent } from './registration/registration.component';
 import {AuthoGuard} from "./autho.guard";
+import {CarsComponent} from "./cars/cars.component";
+import {ChargingComponent} from "./charging/charging.component";
+import {ArticleComponent} from "./article/article.component";
+import {ArticleDetailComponent} from "./article-detail/article-detail.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -22,6 +26,10 @@ const routes: Routes = [
   {path: 'login', component: AuthorizationComponent},
   {path: 'registration', component: RegistrationComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: "cars", component: CarsComponent},
+  {path: "charging", component: ChargingComponent},
+  {path: "article", component: ArticleComponent},
+  {path: "article/:id", component: ArticleDetailComponent}
 ];
 
 @NgModule({

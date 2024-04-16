@@ -1,23 +1,27 @@
 .footer {
-  background-color: darkblue;
-  padding: 20px 0;
+    background-color: darkblue;
+    padding: 10px 0;
 }
 
 .wrapper {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .contacts {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.contacts h2 {
-  margin: 10px;
-  color: grey;
+.contacts h4 {
+    margin: 10px 20px;
+    color: grey;
 }
 
+.contacts h4:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
 
-
-
+h4{
+    font-size: 10px;
+}
