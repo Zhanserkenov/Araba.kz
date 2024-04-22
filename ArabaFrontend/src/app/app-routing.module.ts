@@ -1,19 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {HomeComponent} from "./home/home.component";
-import {AccountComponent} from "./account/account.component";
-import {FavoritesComponent} from "./favorites/favorites.component";
-import {PurchasesComponent} from "./purchases/purchases.component";
-import {CategoriesComponent} from "./categories/categories.component";
-import {ProductDetailComponent} from "./product-detail/product-detail.component";
+import { HomeComponent } from "./home/home.component";
+import { AccountComponent } from "./account/account.component";
+import { FavoritesComponent } from "./favorites/favorites.component";
+import { PurchasesComponent } from "./purchases/purchases.component";
+import { CategoriesComponent } from "./categories/categories.component";
+import { ProductDetailComponent } from "./product-detail/product-detail.component";
 import { SearchComponent } from './search/search.component';
 import { AuthorizationComponent } from './authorization/authorization.component';
 import { RegistrationComponent } from './registration/registration.component';
-import {AuthoGuard} from "./autho.guard";
-import {CarsComponent} from "./cars/cars.component";
-import {ChargingComponent} from "./charging/charging.component";
-import {ArticleComponent} from "./article/article.component";
-import {ArticleDetailComponent} from "./article-detail/article-detail.component";
+import { AuthoGuard } from "./autho.guard";
+import { CarsComponent } from "./cars/cars.component";
+import { ChargingComponent } from "./charging/charging.component";
+import { ArticleComponent } from "./article/article.component";
+import { ArticleDetailComponent } from "./article-detail/article-detail.component";
+import {AccessoriesComponent} from "./accessories/accessories.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -29,7 +30,8 @@ const routes: Routes = [
   {path: "cars", component: CarsComponent},
   {path: "charging", component: ChargingComponent},
   {path: "article", component: ArticleComponent},
-  {path: "article/:id", component: ArticleDetailComponent}
+  {path: "article/:id", component: ArticleDetailComponent},
+  {path: "accessories", component: AccessoriesComponent}
 ];
 
 @NgModule({

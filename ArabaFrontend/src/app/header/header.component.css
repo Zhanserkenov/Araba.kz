@@ -12,24 +12,30 @@
 .menu {
   display: flex;
   gap: 20px; /* Add space between menu items */
+  margin-right: 20px;
 }
 
-.menu-item {
-  height: 40px;
-  width: 40px;
+.menu i {
+  font-size: 30px;
+  margin-top: 11px;
   border-radius: 50%; /* Make menu items circular */
+  cursor: pointer; /* Add pointer cursor */
+  transition: transform 0.3s ease; /* Add transition effect for transform */
 }
 
 .center {
   margin-top: 11px;
   display: flex;
-  justify-content: space-evenly; /* Distribute spans evenly */
+  justify-content: space-evenly;
   align-items: center;
-  flex-grow: 1; /* Allow center section to grow */
+  flex-grow: 0.5;
 }
+
 
 .logo {
   margin-top: 6px;
+  cursor: pointer; /* Add pointer cursor */
+  transition: transform 0.3s ease; /* Add transition effect for transform */
 }
 
 .center span {
@@ -38,5 +44,9 @@
 }
 
 .center span:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+
+.menu i:hover{
   transform: scale(1.1); /* Increase size on hover */
 }

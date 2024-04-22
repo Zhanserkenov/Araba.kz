@@ -21,6 +21,7 @@ import { CarsComponent } from './cars/cars.component';
 import { ChargingComponent } from './charging/charging.component';
 import { ArticleComponent } from './article/article.component';
 import { ArticleDetailComponent } from './article-detail/article-detail.component';
+import { AccessoriesComponent } from './accessories/accessories.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { ArticleDetailComponent } from './article-detail/article-detail.componen
     ChargingComponent,
     ArticleComponent,
     ArticleDetailComponent,
+    AccessoriesComponent,
   ],
   imports: [
     BrowserModule,

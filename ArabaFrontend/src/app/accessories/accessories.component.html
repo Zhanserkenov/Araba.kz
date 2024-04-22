@@ -1,0 +1,19 @@
+<h1>Accessories</h1>
+<table>
+    <thead>
+    <tr>
+        <th class = "th">Name</th>
+        <th class = "th">Car</th>
+        <th class = "th">Manufacturer</th>
+        <th class = "th">Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let accessories of accessoriesData">
+        <td class="th"> {{ accessories.name }}</td>
+        <td class = "th">{{ accessories.car }}</td>
+        <td class = "th">{{ accessories.manufacturer }}</td>
+        <td class = "th">{{ accessories.price }}</td>
+    </tr>
+    </tbody>
+</table>
